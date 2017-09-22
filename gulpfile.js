@@ -105,7 +105,9 @@ gulp.task('vendor', function() {
 			'node_modules/@microfocus/ng-ias/dist/ng-ias.css',
             'node_modules/angular/angular.js',
         	'node_modules/angular-ui-router/release/angular-ui-router.js',
-        	'node_modules/@microfocus/ng-ias/dist/ng-ias.js'
+        	'node_modules/@microfocus/ng-ias/dist/ng-ias.js',
+            'node_modules/ng-prism/dist/ng-prism.js',
+            'node_modules/ng-prism/dist/ng-prism.css'
 		])
 		.pipe(gulp.dest(outputDirectory + '/vendor'));
 });

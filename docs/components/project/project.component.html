@@ -1,10 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<div>
+    <section id="introduction">
+        <h1>ias-icons</h1>
+        <p>ias-icons is an official implementation of the Micro Focus UX icons.
+            This documentation contains a reference implementation and exmaples.</p>
+    </section>
+
+    <section id="installation">
+        <h2>Installation</h2>
+        <section>
+            <h3>NPM</h3>
+            <pre><code highlight="clike">
+                npm install --save @microfocus/ias-icons
+            </code></pre>
+        </section>
+        <section>
+            <p>Add the stylesheets to your .html file:</p>
+            <pre><code highlight="markup">
+                &lt;link rel="stylesheet" href="ias-icons.css" /&gt;
+            </code></pre>
+        </section>
+
+
+        <section>
+            <h2>Usage</h2>
+            <p>Use the ias-icon element and set it equal to the name of the icon you'd like to use.</p>
+        </section>
+        <h4>Example:</h4>
+        <ias-icon icon="colors"></ias-icon>
+        <pre><code highlight="markup">
+            &lt;ias-icon icon="colors"&gt;&lt;/ias-icon&gt;
+        </code></pre>
+        </section>
+</div>

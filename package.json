@@ -32,5 +32,8 @@
     "gulp-rename": "1.2.2",
     "gulp-watch": "4.3.11",
     "run-sequence": "2.0.0"
+  },
+  "dependencies": {
+    "ng-prism": "git+https://github.com/joswhite/ng-prism.git"
   }
 }

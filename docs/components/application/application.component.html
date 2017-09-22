@@ -1,7 +1,15 @@
 <ias-app-bar>
     <h3 class="ias-heading" title="Icon Documentation">ias-icons</h3>
 </ias-app-bar>
-
+<header>
+    <ias-nav>
+        <ias-button id="componentsSideNavToggle" class="ias-icon-button" ng-if="$ctrl.isComponentsView()" ias-toggle="componentSideNav">
+            <ias-icon icon="hamburger_menu_thick"></ias-icon>
+        </ias-button>
+        <a ui-sref="app.project" ui-sref-active="ias-active">Project</a>
+        <a ui-sref="app.icons.table" ui-sref-active="ias-active">Icons</a>
+    </ias-nav>
+</header>
 <main class="ias-content-padding">
 
 <ui-view></ui-view>
